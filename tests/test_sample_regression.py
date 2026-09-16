@@ -31,7 +31,7 @@ def load(name, kind):
 
 def expected_findings():
     with open(os.path.join(SAMPLE, "beklenen_hatalar.csv"), encoding="utf-8-sig") as f:
-        return {(r["Sipariş No"], r["Hata Kodu"])
+        return {(r["Sipariş No"], r["Hata Kodu"], imp.to_float(r["Tutar"]))
                 for r in csv.DictReader(f, delimiter=";")}
 
 
@@ -53,8 +53,8 @@ class SampleMonthTest(unittest.TestCase):
         self.assertAlmostEqual(sum(l["net_paid"] for l in self.lines) - planted_lump_sum,
                                BANK_TOTAL, places=2)
 
-    def test_every_planted_error_found_and_nothing_else(self):
-        found = {(i["platform_order_id"], i["code"])
+    def test_every_planted_error_found_with_amount_and_nothing_else(self):
+        found = {(i["platform_order_id"], i["code"], i["amount"])
                  for i in self.result["issues"]}
         want = expected_findings()
         self.assertEqual(len(want), 30)

@@ -99,7 +99,7 @@ class ApiTest(unittest.TestCase):
         q = "?platform=yemeksepeti&start=2026-08-01&end=2026-08-31"
         status, _, data = self.request("GET", "/api/reconcile" + q)
         self.assertEqual(status, 200)
-        found = {(i["platform_order_id"], i["code"])
+        found = {(i["platform_order_id"], i["code"], i["amount"])
                  for i in json.loads(data)["issues"]}
         self.assertEqual(found, expected_findings())
 

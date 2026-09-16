@@ -69,7 +69,8 @@ for i in range(N):
             com2 = round(base * 0.21, 2)
             cvat = round(com2 * VAT, 2)
             net = round(net - (com2 - com) * (1 + VAT), 2)
-            planted.append((oid, "RATE_MISMATCH", round(com2 - com, 2)))
+            # Kayıp = fazla komisyon + onun KDV'si (iptal satırındaki gibi KDV dahil)
+            planted.append((oid, "RATE_MISMATCH", round((com2 - com) * (1 + VAT), 2)))
             com = com2
         if i % 41 == 7:                      # 3) açıklamasız kesinti
             other = round(random.uniform(15, 60), 2)
