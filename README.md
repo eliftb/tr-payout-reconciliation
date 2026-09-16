@@ -1,5 +1,7 @@
 # tr-payout-reconciliation
 
+[![tests](https://github.com/eliftb/tr-payout-reconciliation/actions/workflows/tests.yml/badge.svg)](https://github.com/eliftb/tr-payout-reconciliation/actions/workflows/tests.yml)
+
 *English · [Türkçe](README.tr.md)*
 
 A local reconciliation panel for restaurants selling through Turkish food
@@ -62,6 +64,52 @@ delivery, or gross), a fixed per-order fee, online payment
 processing rate, commission VAT (20% by default) and who keeps the
 delivery fee.
 
+## Results on the benchmark month
+
+The only data the tool has been run on so far is the generated sample month
+in `sample/` — no real platform statement yet. On that month:
+
+| | |
+|---|---|
+| POS orders / statement lines | 220 / 216 |
+| Errors planted by the generator | 30, across 7 discrepancy types |
+| Found by the tool | 30, each with the exact amount |
+| False positives | 0 |
+| Expected payout per contract | 66,755.11 TL |
+| Actually reached the bank | 63,155.16 TL |
+| Underpayment found | **3,599.95 TL (5.4%)** — 1,749.95 TL across order-level findings, fully attributed to a cause, plus a 1,850.00 TL lump-sum deduction |
+
+These numbers are asserted by the test suite, so a change that breaks
+detection or attribution fails CI.
+
+## Engineering notes
+
+Problems that were not obvious up front and shaped the code:
+
+- **One lira, one cause.** A commission overcharge on a rate mismatch is
+  reported as `RATE_MISMATCH` only, not also as `COMMISSION_OVERCHARGE` or
+  `UNDERPAID`. Double-counting inflates the dispute total and gives the
+  platform a reason to reject the whole list. The rate is checked before the
+  amount because "you applied 21% instead of 18%" is a stronger claim than
+  "the deduction is too high".
+- **Don't invent a cause.** When an order appears on the statement more than
+  once, commission is not compared against a single order's rate — an exact
+  duplicate would look like a 36% rate. Such orders are flagged as
+  `DUPLICATE_LINE` and the difference is left for review.
+- **VAT is part of the loss.** Excess commission is invoiced with 20% VAT,
+  so the restaurant loses the excess *plus* its VAT.
+- **Cash on delivery flips the sign.** The restaurant collected the money,
+  so the expected payout is negative: the platform is owed its commission.
+- **Bank ≠ statement.** Money can disappear between the statement's line
+  total and the bank transfer without touching any order. That check uses
+  every statement line, including orders the engine could not evaluate.
+- **Turkish text traps.** In Python `"İ".lower()` yields `i` plus a
+  combining dot (U+0307); a naive match would silently read `İptal Edildi`
+  (cancelled) as a delivered order. The column guesser matches whole words so `tip`
+  does not capture `Ödeme Tipi` (payment type), and assigns columns globally
+  by score rather than field by field, so a weak early match cannot steal a
+  later exact one.
+
 ## Quick start
 
 Requires Python 3 (tested on 3.10).
@@ -98,6 +146,31 @@ All 30 planted errors should appear with nothing extra, and the whole
 shortfall should be explained. `make_sample.py` regenerates the files
 (fixed seed, same output).
 
+## Tests
+
+```bash
+python3 -m unittest discover -s tests
+```
+
+58 tests, standard library only (the XLSX test is skipped without
+`openpyxl`). CI runs them on Python 3.10–3.14 and once without `openpyxl`.
+
+- `test_rules.py` — rule selection by date, every commission base, expected
+  payout computed by hand for online, cash, cancelled and fixed-fee orders
+- `test_importers.py` — number and date formats, Turkish normalisation,
+  column guessing, cp1254 CSV, XLSX
+- `test_reconcile.py` — one scenario per discrepancy type, attribution,
+  tolerances
+- `test_sample_regression.py` — the benchmark table above, and that
+  `make_sample.py` reproduces the committed files byte for byte
+- `test_app.py` — upload → reconcile → export over HTTP against a temporary
+  database, re-import idempotency, path traversal
+
+Writing the tests surfaced three defects, each fixed in its own commit with
+a regression test: a false lump-sum deduction when some orders had no
+commission rule, duplicate statement lines reported as rate mismatches, and
+the sample generator recording rate-mismatch losses without VAT.
+
 ## Your data
 
 Everything lives in one SQLite file, `data/hakedis.db`. Back it up by
@@ -115,6 +188,8 @@ are git-ignored — real order and revenue data must never be committed.
 | `importers.py` | CSV/XLSX reading, Turkish number/date formats, cp1254, column guessing |
 | `static/` | Front end (plain HTML + JS) |
 | `make_sample.py`, `sample/` | Sample data generator and its output |
+| `tests/` | Unit, regression and HTTP integration tests |
+| `.github/workflows/` | CI |
 
 ## Status
 
@@ -125,4 +200,6 @@ are git-ignored — real order and revenue data must never be committed.
 - Dispute tracking (open / sent / accepted / collected): table and API
   exist, no UI.
 - Dispute list export is CSV (opens in Excel).
+- Numbers with a single dot and no decimal part are ambiguous: `1.250` is
+  read as 1.25, not 1,250. Exports with decimals (`1.250,00`) are fine.
 - No month-over-month comparison.

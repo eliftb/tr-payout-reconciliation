@@ -154,6 +154,7 @@ Bu dosyayı kopyalamanız yedek almak için yeterlidir.
 | `importers.py` | Excel/CSV okuma, sütun tanıma |
 | `static/` | Arayüz |
 | `sample/` | Örnek veri üreticisi (`make_sample.py`) |
+| `tests/` | Testler: `python3 -m unittest discover -s tests` |
 
 Python 3 ve `openpyxl` dışında bağımlılık yok.
 
