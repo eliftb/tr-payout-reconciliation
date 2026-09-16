@@ -1,0 +1,15 @@
+# Real order and revenue data lives here — must never be committed
+data/
+*.db
+*.db-wal
+*.db-shm
+*.log
+
+# Exports downloaded from POS or platforms — only the generated sample CSVs are tracked
+*.xlsx
+*.xls
+*.csv
+!sample/*.csv
+
+__pycache__/
+*.pyc

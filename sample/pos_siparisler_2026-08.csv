@@ -1,0 +1,221 @@
+﻿Sipariş No;Sipariş Tarihi;Ürün Tutarı;Teslimat Ücreti;Restoran İndirimi;Platform İndirimi;Bahşiş;Ödeme Tipi;Durum
+YS-480000;01.08.2026;588,17;0,00;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480001;02.08.2026;686,55;0,00;68,66;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480002;03.08.2026;303,43;0,00;0,00;0,00;10,00;Online Kredi Kartı;Teslim Edildi
+YS-480003;04.08.2026;207,06;19,90;0,00;0,00;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480004;05.08.2026;691,31;19,90;69,13;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480005;06.08.2026;362,85;0,00;0,00;0,00;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480006;07.08.2026;512,53;0,00;0,00;0,00;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480007;08.08.2026;659,66;19,90;0,00;0,00;10,00;Online Kredi Kartı;Teslim Edildi
+YS-480008;09.08.2026;274,36;0,00;0,00;0,00;0,00;Kapıda Nakit;İptal Edildi
+YS-480009;10.08.2026;287,12;19,90;28,71;0,00;10,00;Kapıda Nakit;Teslim Edildi
+YS-480010;11.08.2026;345,87;19,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480011;12.08.2026;236,34;0,00;23,63;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480012;13.08.2026;559,60;19,90;0,00;0,00;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480013;14.08.2026;577,53;19,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480014;15.08.2026;529,72;0,00;0,00;0,00;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480015;16.08.2026;692,31;19,90;0,00;0,00;0,00;Online Kredi Kartı;İptal Edildi
+YS-480016;17.08.2026;445,44;29,90;0,00;0,00;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480017;18.08.2026;653,28;0,00;0,00;0,00;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480018;19.08.2026;674,18;0,00;67,42;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480019;20.08.2026;213,79;29,90;0,00;32,07;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480020;21.08.2026;716,60;19,90;71,66;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480021;22.08.2026;846,29;0,00;0,00;0,00;10,00;Kapıda Nakit;Teslim Edildi
+YS-480022;23.08.2026;735,78;29,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480023;24.08.2026;732,27;0,00;0,00;0,00;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480024;25.08.2026;646,90;0,00;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480025;26.08.2026;637,33;29,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480026;27.08.2026;213,72;29,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480027;28.08.2026;441,12;0,00;0,00;66,17;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480028;29.08.2026;604,07;19,90;0,00;90,61;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480029;30.08.2026;242,40;0,00;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480030;01.08.2026;483,25;29,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480031;02.08.2026;212,81;29,90;0,00;0,00;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480032;03.08.2026;282,04;29,90;0,00;42,31;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480033;04.08.2026;755,88;19,90;75,59;0,00;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480034;05.08.2026;574,87;0,00;57,49;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480035;06.08.2026;430,76;29,90;0,00;0,00;10,00;Online Kredi Kartı;Teslim Edildi
+YS-480036;07.08.2026;846,80;0,00;84,68;0,00;10,00;Online Kredi Kartı;Teslim Edildi
+YS-480037;08.08.2026;669,57;0,00;66,96;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480038;09.08.2026;740,13;0,00;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480039;10.08.2026;273,45;29,90;0,00;41,02;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480040;11.08.2026;323,53;19,90;0,00;48,53;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480041;12.08.2026;348,39;29,90;0,00;0,00;10,00;Online Kredi Kartı;Teslim Edildi
+YS-480042;13.08.2026;130,87;19,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480043;14.08.2026;833,71;0,00;83,37;0,00;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480044;15.08.2026;291,41;0,00;29,14;0,00;0,00;Online Kredi Kartı;İptal Edildi
+YS-480045;16.08.2026;362,55;0,00;0,00;54,38;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480046;17.08.2026;611,95;0,00;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480047;18.08.2026;209,31;0,00;0,00;31,40;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480048;19.08.2026;401,61;19,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480049;20.08.2026;829,57;19,90;82,96;0,00;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480050;21.08.2026;519,59;19,90;0,00;0,00;10,00;Online Kredi Kartı;Teslim Edildi
+YS-480051;22.08.2026;522,41;29,90;0,00;0,00;10,00;Online Kredi Kartı;İptal Edildi
+YS-480052;23.08.2026;612,67;0,00;61,27;91,90;0,00;Kapıda Nakit;Teslim Edildi
+YS-480053;24.08.2026;232,10;0,00;0,00;0,00;10,00;Kapıda Nakit;Teslim Edildi
+YS-480054;25.08.2026;703,27;0,00;0,00;0,00;0,00;Kapıda Nakit;Teslim Edildi
+YS-480055;26.08.2026;371,33;19,90;0,00;0,00;10,00;Online Kredi Kartı;Teslim Edildi
+YS-480056;27.08.2026;483,32;29,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480057;28.08.2026;163,67;19,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480058;29.08.2026;791,69;29,90;0,00;0,00;0,00;Kapıda Nakit;Teslim Edildi
+YS-480059;30.08.2026;560,95;19,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480060;01.08.2026;817,94;19,90;0,00;0,00;0,00;Kapıda Nakit;Teslim Edildi
+YS-480061;02.08.2026;758,40;19,90;0,00;0,00;0,00;Kapıda Nakit;Teslim Edildi
+YS-480062;03.08.2026;588,97;0,00;58,90;88,35;0,00;Kapıda Nakit;Teslim Edildi
+YS-480063;04.08.2026;226,76;0,00;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480064;05.08.2026;422,87;29,90;0,00;0,00;10,00;Online Kredi Kartı;Teslim Edildi
+YS-480065;06.08.2026;403,92;0,00;0,00;60,59;10,00;Online Kredi Kartı;Teslim Edildi
+YS-480066;07.08.2026;455,23;0,00;45,52;0,00;0,00;Online Kredi Kartı;İptal Edildi
+YS-480067;08.08.2026;549,80;0,00;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480068;09.08.2026;615,04;19,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480069;10.08.2026;687,56;19,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480070;11.08.2026;432,00;0,00;43,20;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480071;12.08.2026;182,12;19,90;18,21;27,32;10,00;Online Kredi Kartı;Teslim Edildi
+YS-480072;13.08.2026;297,35;19,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480073;14.08.2026;219,42;29,90;0,00;0,00;0,00;Kapıda Nakit;Teslim Edildi
+YS-480074;15.08.2026;745,36;19,90;0,00;0,00;0,00;Kapıda Nakit;Teslim Edildi
+YS-480075;16.08.2026;265,00;19,90;0,00;39,75;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480076;17.08.2026;421,21;19,90;0,00;0,00;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480077;18.08.2026;576,70;0,00;0,00;0,00;10,00;Online Kredi Kartı;Teslim Edildi
+YS-480078;19.08.2026;331,84;0,00;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480079;20.08.2026;120,02;0,00;0,00;18,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480080;21.08.2026;707,47;19,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480081;22.08.2026;747,01;0,00;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480082;23.08.2026;274,97;0,00;0,00;41,25;0,00;Online Kredi Kartı;İptal Edildi
+YS-480083;24.08.2026;506,89;0,00;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480084;25.08.2026;220,01;19,90;22,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480085;26.08.2026;683,20;0,00;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480086;27.08.2026;666,35;19,90;0,00;0,00;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480087;28.08.2026;834,38;29,90;0,00;125,16;10,00;Online Kredi Kartı;Teslim Edildi
+YS-480088;29.08.2026;617,74;0,00;0,00;0,00;10,00;Online Kredi Kartı;Teslim Edildi
+YS-480089;30.08.2026;689,57;0,00;0,00;0,00;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480090;01.08.2026;402,31;29,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480091;02.08.2026;596,42;0,00;0,00;89,46;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480092;03.08.2026;444,04;29,90;44,40;0,00;10,00;Online Kredi Kartı;Teslim Edildi
+YS-480093;04.08.2026;372,25;0,00;37,23;55,84;0,00;Online Kredi Kartı;İptal Edildi
+YS-480094;05.08.2026;506,37;0,00;0,00;75,96;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480095;06.08.2026;349,88;0,00;0,00;0,00;10,00;Online Kredi Kartı;Teslim Edildi
+YS-480096;07.08.2026;143,47;29,90;0,00;0,00;0,00;Kapıda Nakit;Teslim Edildi
+YS-480097;08.08.2026;653,78;0,00;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480098;09.08.2026;766,66;0,00;0,00;0,00;0,00;Online Kredi Kartı;İptal Edildi
+YS-480099;10.08.2026;683,15;0,00;0,00;0,00;10,00;Online Kredi Kartı;Teslim Edildi
+YS-480100;11.08.2026;731,90;19,90;0,00;0,00;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480101;12.08.2026;726,62;29,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480102;13.08.2026;180,72;19,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480103;14.08.2026;535,54;0,00;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480104;15.08.2026;510,87;19,90;0,00;0,00;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480105;16.08.2026;293,55;0,00;0,00;0,00;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480106;17.08.2026;626,66;19,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480107;18.08.2026;242,12;0,00;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480108;19.08.2026;525,62;0,00;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480109;20.08.2026;505,96;0,00;50,60;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480110;21.08.2026;180,59;29,90;18,06;0,00;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480111;22.08.2026;733,05;0,00;0,00;109,96;10,00;Online Kredi Kartı;Teslim Edildi
+YS-480112;23.08.2026;665,22;0,00;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480113;24.08.2026;741,68;0,00;74,17;111,25;10,00;Online Kredi Kartı;Teslim Edildi
+YS-480114;25.08.2026;794,25;29,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480115;26.08.2026;777,72;0,00;77,77;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480116;27.08.2026;226,15;19,90;0,00;0,00;25,00;Kapıda Nakit;Teslim Edildi
+YS-480117;28.08.2026;196,26;19,90;19,63;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480118;29.08.2026;650,09;19,90;0,00;0,00;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480119;30.08.2026;579,09;0,00;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480120;01.08.2026;147,62;0,00;0,00;0,00;0,00;Kapıda Nakit;Teslim Edildi
+YS-480121;02.08.2026;613,57;0,00;61,36;0,00;25,00;Online Kredi Kartı;İptal Edildi
+YS-480122;03.08.2026;317,40;29,90;0,00;0,00;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480123;04.08.2026;675,03;0,00;67,50;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480124;05.08.2026;166,91;0,00;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480125;06.08.2026;273,50;29,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480126;07.08.2026;702,35;29,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480127;08.08.2026;547,59;0,00;0,00;0,00;10,00;Online Kredi Kartı;İptal Edildi
+YS-480128;09.08.2026;401,77;0,00;40,18;0,00;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480129;10.08.2026;128,34;19,90;0,00;0,00;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480130;11.08.2026;390,49;0,00;0,00;0,00;10,00;Online Kredi Kartı;Teslim Edildi
+YS-480131;12.08.2026;242,71;0,00;0,00;36,41;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480132;13.08.2026;159,60;19,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480133;14.08.2026;320,85;0,00;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480134;15.08.2026;498,10;0,00;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480135;16.08.2026;741,09;0,00;0,00;111,16;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480136;17.08.2026;383,84;0,00;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480137;18.08.2026;735,94;0,00;73,59;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480138;19.08.2026;383,31;19,90;0,00;0,00;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480139;20.08.2026;628,76;19,90;62,88;0,00;10,00;Online Kredi Kartı;Teslim Edildi
+YS-480140;21.08.2026;461,77;19,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480141;22.08.2026;830,21;0,00;83,02;0,00;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480142;23.08.2026;285,73;29,90;0,00;0,00;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480143;24.08.2026;843,81;29,90;84,38;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480144;25.08.2026;762,49;19,90;0,00;0,00;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480145;26.08.2026;214,11;19,90;0,00;0,00;10,00;Online Kredi Kartı;Teslim Edildi
+YS-480146;27.08.2026;463,16;19,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480147;28.08.2026;382,09;19,90;0,00;57,31;0,00;Online Kredi Kartı;İptal Edildi
+YS-480148;29.08.2026;426,40;0,00;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480149;30.08.2026;691,88;0,00;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480150;01.08.2026;820,64;0,00;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480151;02.08.2026;431,83;29,90;43,18;0,00;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480152;03.08.2026;575,71;0,00;57,57;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480153;04.08.2026;221,22;0,00;0,00;0,00;0,00;Online Kredi Kartı;İptal Edildi
+YS-480154;05.08.2026;694,97;0,00;0,00;104,25;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480155;06.08.2026;122,82;19,90;12,28;0,00;0,00;Online Kredi Kartı;İptal Edildi
+YS-480156;07.08.2026;378,68;29,90;37,87;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480157;08.08.2026;428,12;29,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480158;09.08.2026;774,33;0,00;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480159;10.08.2026;815,16;19,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480160;11.08.2026;197,96;0,00;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480161;12.08.2026;391,46;19,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480162;13.08.2026;785,68;0,00;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480163;14.08.2026;814,18;19,90;0,00;122,13;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480164;15.08.2026;540,64;29,90;0,00;81,10;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480165;16.08.2026;674,65;0,00;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480166;17.08.2026;156,25;0,00;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480167;18.08.2026;400,55;29,90;0,00;0,00;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480168;19.08.2026;359,25;0,00;35,93;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480169;20.08.2026;493,53;19,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480170;21.08.2026;698,04;0,00;0,00;104,71;10,00;Online Kredi Kartı;Teslim Edildi
+YS-480171;22.08.2026;167,37;29,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480172;23.08.2026;288,95;19,90;28,89;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480173;24.08.2026;678,63;29,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480174;25.08.2026;619,91;19,90;0,00;0,00;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480175;26.08.2026;549,60;29,90;0,00;0,00;10,00;Online Kredi Kartı;Teslim Edildi
+YS-480176;27.08.2026;785,17;29,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480177;28.08.2026;647,94;0,00;64,79;97,19;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480178;29.08.2026;608,20;0,00;0,00;0,00;0,00;Kapıda Nakit;Teslim Edildi
+YS-480179;30.08.2026;772,46;19,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480180;01.08.2026;787,50;19,90;78,75;118,12;25,00;Kapıda Nakit;Teslim Edildi
+YS-480181;02.08.2026;165,16;19,90;16,52;0,00;0,00;Kapıda Nakit;Teslim Edildi
+YS-480182;03.08.2026;343,82;19,90;0,00;0,00;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480183;04.08.2026;205,32;29,90;20,53;0,00;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480184;05.08.2026;520,88;29,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480185;06.08.2026;588,75;0,00;58,88;0,00;10,00;Online Kredi Kartı;Teslim Edildi
+YS-480186;07.08.2026;583,78;19,90;0,00;0,00;10,00;Kapıda Nakit;Teslim Edildi
+YS-480187;08.08.2026;568,24;29,90;0,00;0,00;10,00;Online Kredi Kartı;Teslim Edildi
+YS-480188;09.08.2026;265,19;0,00;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480189;10.08.2026;811,76;0,00;0,00;0,00;10,00;Online Kredi Kartı;Teslim Edildi
+YS-480190;11.08.2026;256,46;0,00;0,00;0,00;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480191;12.08.2026;313,26;19,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480192;13.08.2026;678,67;0,00;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480193;14.08.2026;734,09;19,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480194;15.08.2026;127,62;19,90;0,00;19,14;10,00;Online Kredi Kartı;Teslim Edildi
+YS-480195;16.08.2026;360,00;0,00;0,00;0,00;0,00;Kapıda Nakit;Teslim Edildi
+YS-480196;17.08.2026;787,21;0,00;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480197;18.08.2026;639,88;0,00;0,00;0,00;10,00;Kapıda Nakit;Teslim Edildi
+YS-480198;19.08.2026;558,45;19,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480199;20.08.2026;401,91;29,90;0,00;60,29;10,00;Online Kredi Kartı;Teslim Edildi
+YS-480200;21.08.2026;711,98;19,90;71,20;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480201;22.08.2026;784,48;19,90;0,00;0,00;10,00;Online Kredi Kartı;İptal Edildi
+YS-480202;23.08.2026;810,49;0,00;0,00;121,57;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480203;24.08.2026;422,51;0,00;0,00;0,00;25,00;Online Kredi Kartı;Teslim Edildi
+YS-480204;25.08.2026;540,05;0,00;54,00;81,01;10,00;Online Kredi Kartı;Teslim Edildi
+YS-480205;26.08.2026;512,37;29,90;0,00;0,00;0,00;Online Kredi Kartı;İptal Edildi
+YS-480206;27.08.2026;358,74;19,90;35,87;53,81;0,00;Kapıda Nakit;Teslim Edildi
+YS-480207;28.08.2026;836,56;0,00;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480208;29.08.2026;193,61;29,90;0,00;0,00;0,00;Kapıda Nakit;Teslim Edildi
+YS-480209;30.08.2026;646,57;0,00;0,00;0,00;25,00;Kapıda Nakit;Teslim Edildi
+YS-480210;01.08.2026;542,97;0,00;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480211;02.08.2026;399,59;0,00;0,00;59,94;10,00;Online Kredi Kartı;Teslim Edildi
+YS-480212;03.08.2026;233,04;0,00;0,00;34,96;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480213;04.08.2026;185,74;0,00;18,57;27,86;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480214;05.08.2026;126,55;19,90;12,66;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480215;06.08.2026;542,20;19,90;54,22;81,33;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480216;07.08.2026;755,86;0,00;0,00;0,00;0,00;Online Kredi Kartı;İptal Edildi
+YS-480217;08.08.2026;411,17;19,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480218;09.08.2026;795,80;29,90;0,00;0,00;0,00;Online Kredi Kartı;Teslim Edildi
+YS-480219;10.08.2026;238,21;0,00;23,82;0,00;25,00;Online Kredi Kartı;Teslim Edildi
