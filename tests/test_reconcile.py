@@ -91,6 +91,19 @@ class SingleOrderTest(unittest.TestCase):
         self.assertAlmostEqual(amount(res, "PLATFORM_DISCOUNT_CHARGED"), 10.0, places=2)
         self.assert_fully_explained(res)
 
+    def test_duplicate_line_paid_twice(self):
+        line = correct_line(self.order, self.rule)
+        res = self.run_one([line, dict(line)])
+        self.assertEqual(codes(res), ["DUPLICATE_LINE", "OVERPAID"])
+        self.assertAlmostEqual(amount(res, "OVERPAID"), 144.28, places=2)
+
+    def test_duplicate_line_at_wrong_rate_is_not_attributed(self):
+        # İki satırlık siparişte oran/komisyon sebebi atanmaz, fark incelemeye kalır
+        line = correct_line(self.order, self.rule, commission_charged=37.80,
+                            commission_vat_charged=7.56, net_paid=137.80)
+        res = self.run_one([line, dict(line)])
+        self.assertEqual(codes(res), ["DUPLICATE_LINE", "OVERPAID"])
+
     def test_line_without_pos_record(self):
         orphan = correct_line(make_order(platform_order_id="YS-999"), self.rule)
         res = self.run_one([correct_line(self.order, self.rule), orphan])
@@ -134,7 +147,6 @@ class PeriodTotalTest(unittest.TestCase):
         orders = list(self.orders)
         orders[0] = make_order(platform_order_id="YS-0", order_date="2025-06-01")
         self.assertEqual(codes(self.run_total(self.line_sum, orders=orders)), ["NO_RULE"])
-
 
 
 if __name__ == "__main__":

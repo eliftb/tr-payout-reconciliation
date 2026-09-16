@@ -152,8 +152,13 @@ def reconcile_period(orders, payout_lines, rule_rows, payout_total=None):
         overcharge = r2(com_charged - expected_com)
         base = exp.get("commission_base") or 0
         rate_flagged = False
+        # Sipariş raporda birden fazla satırsa komisyon toplamı tek siparişin
+        # komisyonuyla kıyaslanamaz: mükerrer satır komisyonu da ikiye katlar
+        # ve oran sapması gibi görünür, oysa platform fazla ödemiştir.
+        # Burada sebep uydurulmaz; fark DUPLICATE_LINE ile incelemeye kalır.
+        single_line = len(plines) == 1
 
-        if base > 0 and com_charged > 0:
+        if single_line and base > 0 and com_charged > 0:
             # Sabit ücretler düşülüp saf oran kıyaslanır
             pure = (com_charged - rule["fixed_fee_per_order"]
                     - rule["service_fee_per_order"]) / base
@@ -166,7 +171,7 @@ def reconcile_period(orders, payout_lines, rule_rows, payout_total=None):
                     % (tl(pure * 100), tl(rule["commission_rate"] * 100), tl(base), tl(gap_amt)),
                     oid, o["platform"], o["order_date"]))
 
-        if not rate_flagged and not cancelled and overcharge > TOLERANCE:
+        if single_line and not rate_flagged and not cancelled and overcharge > TOLERANCE:
             local.append(_issue("COMMISSION_OVERCHARGE",
                                 r2(overcharge * (1 + rule["commission_vat_rate"])),
                                 "Kesilen %s TL, olması gereken %s TL"
