@@ -128,6 +128,14 @@ class PeriodTotalTest(unittest.TestCase):
     def test_sub_lira_difference_is_tolerated(self):
         self.assertEqual(codes(self.run_total(self.line_sum - 0.5)), [])
 
+    def test_bank_check_counts_lines_of_orders_without_rule(self):
+        # Kuralı eksik siparişin satırı da bankaya yatan paranın içinde.
+        # NO_RULE uyarısı yeterli; ayrıca sahte bir "toplu kesinti" çıkmamalı.
+        orders = list(self.orders)
+        orders[0] = make_order(platform_order_id="YS-0", order_date="2025-06-01")
+        self.assertEqual(codes(self.run_total(self.line_sum, orders=orders)), ["NO_RULE"])
+
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -233,12 +233,16 @@ def reconcile_period(orders, payout_lines, rule_rows, payout_total=None):
         })
 
     # --- Dönem toplamı kontrolü ---
+    # Bankaya yatan para raporun TÜM satırlarını kapsar. total_paid_lines
+    # kuralı olmayan siparişlerin satırlarını içermez (NO_RULE ile ayrıca
+    # uyarılıyor); onunla kıyaslamak sahte bir toplu kesinti üretir.
     if payout_total is not None:
-        gap = r2(payout_total - total_paid_lines)
+        statement_total = r2(sum(p["net_paid"] for p in payout_lines))
+        gap = r2(payout_total - statement_total)
         if abs(gap) > 1.0:
             issues.append(_issue("PERIOD_TOTAL_MISMATCH", gap,
                                  "Raporda yazan toplam %s TL, hesabınıza geçen %s TL"
-                                 % (tl(total_paid_lines), tl(payout_total)),
+                                 % (tl(statement_total), tl(payout_total)),
                                  "-", orders[0]["platform"] if orders else "-"))
 
     # Asıl soru "bankaya ne geçti": hakediş satırlarının toplamı ile
